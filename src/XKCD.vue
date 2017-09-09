@@ -43,9 +43,8 @@ export default {
     },
     methods: {
         showXKCD: function () {
-            this.image = ''
-            this.alt = 'Loading...'
-            this.title = 'Loading...'
+            this.loading = true
+            this.title = ''
 
             var newest_url = "http://dynamic.xkcd.com/api-0/jsonp/comic/";
 
