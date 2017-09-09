@@ -1,6 +1,6 @@
 {
   "name": "vue-xkcd",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Displays a random XKCD image",
   "main": "./dist/XKCD.js",
   "dependencies": {
