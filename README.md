@@ -5,7 +5,7 @@ Display a random XKCD comic
 
 ``` bash
 # install with npm
-npm install vue-xpm --save
+npm install vue-xkcd --save
 ```
 
 ``` javascript
@@ -22,7 +22,7 @@ components: {
     VueXKCD
 }
 ```
-You can then create an alert with:
+You can then show a comic with:
 
 ``` html
 <xkcd></xkcd>
